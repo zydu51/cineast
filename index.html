@@ -42,15 +42,47 @@
 </ul>
 
 <h3>
-<a id="video-demo" class="anchor" href="#video-demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video Demo</h3>
+<a id="result" class="anchor" href="#result" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Result</h3>
 
 <ul>
 <li>Feature extracton: Point tracking and foreground masking
 </li>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/buPmfrIzUwo" frameborder="0" allowfullscreen></iframe>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th align="right">Time Usage(Single Frame)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Point tracking</td>
+<td align="right">28ms</td>
+</tr>
+<tr>
+<td>FG/BG separation</td>
+<td align="right">6ms</td>
+</tr>
+<tr>
+<td>Histogram calculation</td>
+<td align="right">1ms</td>
+</tr>
+<tr>
+<td>Masking</td>
+<td align="right">138ms</td>
+</tr>
+<tr>
+<td>Total</td>
+<td align="right">201ms</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
 <li>Motion-based retrieval
 </li>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RD5xeO-AjYA" frameborder="0" allowfullscreen></iframe>
 </ul>
 
 <h3>
